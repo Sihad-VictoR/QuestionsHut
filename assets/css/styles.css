@@ -1,0 +1,89 @@
+#btn-group {
+	z-index: 5000;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial;
+}
+
+body {
+	background: #eee;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.myproject {
+	margin-top: 25px;
+	/* color: #ffffffa8; */
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.wrapperfp {
+	max-width: 500px;
+	border-radius: 10px;
+	margin: 50px auto;
+	padding: 30px 40px;
+	box-shadow: 20px 20px 80px rgb(206, 206, 206);
+}
+
+.signup {
+	max-width: 600px;
+	border-radius: 10px;
+	margin: 50px auto;
+	padding: 30px 40px;
+	box-shadow: 20px 20px 80px rgb(206, 206, 206);
+}
+
+/* .trendingView {
+	background: #4527a0;
+} */
+
+.category {
+	/* background: #bbb1d9; */
+	height: 100%;
+
+	border-radius: 15px;
+}
+
+.viewOne {
+	height: 50vh;
+}
+
+@media (max-width: 768px) {
+	.viewOne {
+		display: none;
+	}
+
+	.viewThree {
+		display: none;
+	}
+}
+
+#myHeader {
+	position: sticky;
+	border-bottom: 2px solid #fff;
+	top: 0;
+	width: 100%;
+	background-color: #333;
+}
+
+.userQA {
+	border: 2px solid red;
+	border-radius: 8px;
+	padding: 5px;
+	margin: 10px;
+}
+
+.trend {
+	border: 2px solid rgba(136, 132, 132, 0.993);
+	border-radius: 8px;
+	padding: 5px;
+	margin: 5px;
+}
